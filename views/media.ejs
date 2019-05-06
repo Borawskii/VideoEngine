@@ -1,0 +1,16 @@
+<!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title>Video Search</title>
+  </head>
+  <body>
+    <h1>Search Engine</h1>
+    <form id="media-search" method="GET" action="/video">
+      <label for "search">Type the name of the video</label>
+      <input type="text" name="search" value="<%= qs.search %>">
+      <input type="submit" value="submit"/>
+    </form>
+  </body>
+</html>
